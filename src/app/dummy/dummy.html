@@ -1,0 +1,5 @@
+<p>this is a dummy component</p>
+<h3>Username:{{username}}</h3>
+<input type="text" name="username" [(ngModel)]="username"/>
+<p [innerText]="username"></p>
+<button (click)="onNameChange()">Reset Name</button>
